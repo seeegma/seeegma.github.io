@@ -3,40 +3,68 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="static/index.css"/>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="/static/script.js"></script>
 	</head>
 	<body>
 		<header>
-			<h1>FINDING FAMILY</h1>
-			<h2 class="browntext"> The son of a British Mormon convert and his pioneer journey to Zion</h2>
-			<h3 class="browntext">Shropshire &bull; Pottawattamie &bull; Utah &bull; San Bernardino</h3>
+			<div id="translucent-background">
+				<h1>Finding Family: The Poppett Line</h1>
+				<h2 class="browntext"> The son of a British Mormon convert and his pioneer journey to Zion</h2>
+			</div>
 		</header>
-		<nav id="navbar" class="blueborder">
-			<div id="align_left">
-				<div class="bar-entry bar-link-entry"><a href="/pages/home.html" target="the_frame">Home</a></div>
-				<div class="bar-entry bar-link-entry"><a href="/pages/narratives.html" target="the_frame">Narratives</a></div>
-				<div class="bar-entry bar-link-entry"><a href="/pages/fan-collaborators.html" target="the_frame"><b>F</b>riends, <b>A</b>ssociates, <b>N</b>eighbors</a></div>
-				<div class="bar-entry bar-link-entry"><a href="/pages/places.html" target="the_frame">Places</a></div>
-				<div class="bar-entry bar-link-entry"><a href="/pages/analytics.html" target="the_frame">Analytics</a></div>
-				<div class="bar-entry bar-link-entry"><a href="/pages/scrapbook.html" target="the_frame">Scrapbook</a></div>
+		<div id="content">
+			<div id="sidebar">
+				<div class="sidebar-section" id="external-resources">
+					<div class="bar-entry-title"><b>Published Sources</b></div>
+					<div class="bar-entry-link"><a href="/pages/timeline.html" target="the_frame">Quick Mormon History</div>
+					<div class="bar-entry-link"><a href="/pages/maps.html" target="the_frame">Maps</a></div>
+					<div class="bar-entry-link"><a href="/pages/maps.html" target="the_frame">Favorite Research Links</a></div>
+				</div>
+				<div class="sidebar-section" id="bulletin-board">
+					<div class="bar-entry-title"><b>Bulletin Board</b></div>
+					<div class="bar-entry-link"><a href="/pages/poppett-case-tree.html" target="the_frame">Quick Charts</a></div>
+					<div class="bar-entry-link"><a href="/pages/poppett-case-tree.html" target="the_frame">Quick Notes</a></div>
+					<div class="bar-entry-link"><a href="/pages/poppett-case-tree.html" target="the_frame">Favorite Links</a></div>
+				</div>
 			</div>
-			<div id="align_right">
-				<div class="bar-entry bar-link-entry"><a href="/pages/sources.html" target="the_frame">Sources</a></div>
-				<div class="bar-entry bar-link-entry"><a href="/pages/about-kristine-forbes.html" target="the_frame">About Kristine Forbes</a></div>
+			<div id="topbar-and-iframe">
+				<div id="topbar">
+					<div id="topbar-left-section">
+						<div class="dropdown">
+							<div class="bar-entry-link"><a href="#">About</a></div>
+							<div class="dropdown-content" id="about-dropdown">
+								<div class="bar-entry-link"><a href="#" target="the_frame">Genesis of Project</a></div>
+								<div class="bar-entry-link"><a href="#" target="the_frame">How to Use This Site</a></div>
+								<div class="bar-entry-link"><a href="#" target="the_frame">Kristine Forbes</a></div>
+							</div>
+						</div>
+						<div class="bar-entry-link"><a href="#" target="the_frame">Tree</a></div>
+						<div class="dropdown">
+							<div class="bar-entry-link"><a href="#">Narratives</a></div>
+							<div class="dropdown-content" id="narratives-dropdown">
+								<div class="bar-entry-link"><a href="/pages/places.html" target="the_frame">Narrative Essays</a></div>
+								<div class="bar-entry-link"><a href="/pages/analytics.html" target="the_frame">Narrative Reports</a></div>
+								<div class="bar-entry-link"><a href="/pages/analytics.html" target="the_frame">Narrative Briefs</a></div>
+							</div>
+						</div>
+						<div class="bar-entry-link"><a href="/pages/places.html" target="the_frame">Profiles</a></div>
+						<div class="bar-entry-link"><a href="/pages/analytics.html" target="the_frame">Charts and Graphs</a></div>
+						<div class="bar-entry-link"><a href="/pages/scrapbook.html" target="the_frame">Gallery</a></div>
+					</div>
+					<div id="topbar-right-section">
+						<div class="dropdown">
+							<div class="bar-entry-link"><a href="#">Sources</a></div>
+							<div class="dropdown-content">
+								<div class="bar-entry-link"><a href="/pages/sources.html" target="the_frame">Documents</a></div>
+								<div class="bar-entry-link"><a href="/pages/sources.html" target="the_frame">Bibliograhpy</a></div>
+							</div>
+						</div>
+						<div class="bar-entry-link"><a href="/pages/about-kristine-forbes.html" target="the_frame">About Kristine Forbes</a></div>
+					</div>
+				</div>
+				<iframe name="the_frame" id="the_frame" src="/pages/home.html">
+				</iframe>
 			</div>
-		</nav>
-		<main id="below-navbar">
-			<aside id="sidebar" class="blueborder">
-				<div class="bar-entry" id="quick-reference-title"><b>Quick Reference</b></div>
-				<div class="bar-entry bar-link-entry"><a href="/pages/timeline.html" target="the_frame">Mormon History Timeline</a></div>
-				<div class="bar-entry bar-link-entry"><a href="/pages/maps.html" target="the_frame">Maps</a></div>
-				<div class="bar-entry bar-link-entry"><a href="/pages/poppett-case-tree.html" target="the_frame">Poppett/Case Tree</a></div>
-			</aside>
-			<iframe name="the_frame" id="the_frame" src="/pages/narrative.html">
-			</iframe>
-		</main>
-	</body>
 		</div>
-	</body>
-	<footer>
-	</footer>
-</html>
+		</body>
+	</html>
