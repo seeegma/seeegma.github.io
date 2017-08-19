@@ -39,11 +39,11 @@ header {
 
 h1 {
 	color: black;
-	font-size: 28px;
+	font-size: 35px;
 }
 
 h2 {
-	color: #371d1f;
+	color: #371d1f; /* TODO: more brown */
 	font-size: 25px;
 }
 
@@ -103,7 +103,7 @@ h2 {
 
 .dropdown {
     position: relative;
-    display: inline-block;
+    display: block;
 }
 
 .dropdown-content {
@@ -115,6 +115,11 @@ h2 {
     z-index: 1;
 }
 
+.sidebar-dropdown {
+	left: 100%;
+	top: 0%;
+}
+
 .topbar-entry-link:hover, .dropdown > .topbar-entry-link:hover {
 	background-color: #9ebaaf;
 }
@@ -124,10 +129,6 @@ h2 {
 }
 
 /* individual dropdown stuff */
-
-#about-dropdown {
-	width: 10em;
-}
 
 #about-dropdown {
 	width: 10em;
@@ -187,6 +188,13 @@ h2 {
 
 .sidebar-entry-link:hover {
 	background-color: #9ebaaf;
+}
+
+.sidebar-title {
+	color: #221d1f;
+	margin: 5px;
+    padding: 5px;
+	text-align: center;
 }
 
 /* the rest */
