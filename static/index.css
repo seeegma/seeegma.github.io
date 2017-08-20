@@ -29,39 +29,38 @@ body {
 /* header */
 
 header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 	background-color: #597667;
-	border-bottom: solid saddlebrown;
+	height: 15%;
+	width: 100%;
+}
+
+header div {
+	height: 100%;
+}
+
+header img {
+	height: 100%;
 }
 
 #headertext {
-	margin-left: 2%;
+	margin: 0 2%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
-h1 {
+#title {
 	color: black;
 	font-size: 35px;
+	font-weight: bold;
 }
 
-h2 {
+#subtitle {
 	color: #371d1f; /* TODO: more brown */
 	font-size: 25px;
-}
-
-/* banner */
-
-#banner {
-	background-image: url("/static/banner-bg_cropped.jpg");
-	background-repeat: no-repeat;
-	background-position: center top;
-	background-color: grey;
-	background-size: cover;
-	text-align: center;
-	height: 20%;
-}
-
-#translucent-background {
-	background: rgba(127, 127, 127, 0.4);
-	height: 100%;
 }
 
 /* top bar */
