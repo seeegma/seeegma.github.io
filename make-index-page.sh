@@ -11,6 +11,11 @@ dir="$(realpath "$dir")"
 
 basename="$(basename "$dir")"
 dirname="$(dirname "$dir")"
+olddir="$dir"
+dir="$dirname/$(echo "$basename" | tr '[:upper:]' '[:lower:]')"
+echo "$olddir"
+echo "$dir"
+mv "$olddir" "$dir"
 
 printf "# $basename\n\n" > "$dir/index.md"
 
