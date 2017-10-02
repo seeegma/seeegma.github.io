@@ -13,8 +13,6 @@ basename="$(basename "$dir")"
 dirname="$(dirname "$dir")"
 olddir="$dir"
 dir="$dirname/$(echo "$basename" | tr '[:upper:]' '[:lower:]')"
-echo "$olddir"
-echo "$dir"
 mv "$olddir" "$dir"
 
 printf "# $basename\n\n" > "$dir/index.md"
@@ -32,7 +30,7 @@ for i in "$dir"/*; do
 	mkdir "$new_dir"
 	pandoc "$dir/$i" --extract-media="$new_dir" -s -o "$new_dir/index.html"
 	rm "$dir/$i"
-	printf -- "$number - [$link_name]($link_url)\n\n" >> "$dir/index.md_tmp"
+	printf -- "$number - [$link_name]($link_url/index.html)\n\n" >> "$dir/index.md_tmp"
 done
 sort -n "$dir/index.md_tmp" | cut -d ' ' -f 1 --complement >> "$dir/index.md"
 rm "$dir/index.md_tmp"
