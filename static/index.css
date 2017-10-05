@@ -114,16 +114,33 @@ header img {
     z-index: 1;
 }
 
-.sidebar-dropdown {
-	left: 100%;
-	top: 0%;
+.dropdown:hover .dropdown-content {
+	display: block;
 }
 
 .topbar-entry-link:hover, .dropdown > .topbar-entry-link:hover {
 	background-color: #9ebaaf;
 }
 
-.dropdown:hover .dropdown-content {
+/* sidebar dropdown stuff */
+ 
+.sidebar-dropdown {
+	position: relative;
+	display: block;
+}
+
+.sidebar-dropdown-content {
+    display: none;
+	background-color: #5c4c34;
+    position: absolute;
+	left: 100%;
+	top: 0%;
+	border: solid #221d1f;
+	border-top: none;
+    z-index: 1;
+}
+
+.sidebar-dropdown:hover .sidebar-dropdown-content {
 	display: block;
 }
 
@@ -156,12 +173,12 @@ header img {
 
 .sidebar-section {
 	margin: 1%;
+	border: solid;
+	border-color: #5c4c34;
 }
 
 #bulletin-board {
 	background-image: url("/static/corkboard.jpg");
-	border: solid;
-	border-color: #5c4c34;
 }
 
 /* sidebar buttons */
