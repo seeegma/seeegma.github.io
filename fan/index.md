@@ -1,5 +1,7 @@
 # Friends, Associates, Neighbors
 
+[Robert Poppett FAN List](robert-poppett-fan-list)
+
 - [Alfred Benson](alfred-benson)
 
 - [Alvah Downey](alvah-downey)
