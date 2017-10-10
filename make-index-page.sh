@@ -4,7 +4,7 @@
 shopt -s nullglob
 
 old_dir="$1"
-if [[ -z $new_dir ]]; then
+if [[ -z $old_dir ]]; then
 	old_dir="."
 fi
 old_dir="$(realpath "$old_dir")"
