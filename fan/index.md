@@ -1,18 +1,18 @@
 # Friends, Associates, Neighbors
 
-[Robert Poppett FAN List](robert-poppett-fan-list)
+[Robert Poppett FAN List](robert-poppett-fan-list/index.html)
 
-- [Alfred Benson](alfred-benson)
+- [Alfred Benson](alfred-benson/index.html)
 
-- [Alvah Downey](alvah-downey)
+- [Alvah Downey](alvah-downey/index.html)
 
-- [Bushrod Wilson](bushrod-wilson)
+- [Bushrod Wilson](bushrod-wilson/index.html)
 
-- [Cox](cox)
+- [Cox](cox/index.html)
 
-- [Daley](daley)
+- [Daley](daley/index.html)
 
-- [Dodson](dodson)
+- [Dodson](dodson/index.html)
 
-- [Van Leuven](van-leuven)
+- [Van Leuven](van-leuven/index.html)
 
