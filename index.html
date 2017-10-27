@@ -2,8 +2,8 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="static/index.css"/>
-		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
-		<!-- <script src="/static/script.js"></script> -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="/static/script.js"></script>
 	</head>
 	<body>
 		<header>
@@ -144,7 +144,7 @@
 					<div class="topbar-entry-link"><a href="/fan/index.html" target="the_frame">Friends, Associates, Neighbors</a></div>
 					<div class="topbar-entry-link"><a href="/under-construction.html" target="the_frame">About</a></div>
 				</div>
-				<iframe name="the_frame" id="the_frame" src="/home/index.html">
+				<iframe name="the_frame" id="the_frame" src="/home/index.html" onload="fix_images()">
 				</iframe>
 			</div>
 		</div>
