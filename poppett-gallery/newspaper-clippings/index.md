@@ -1,4 +1,4 @@
-# Newspaper Articles
+# Newspaper Clippings
 
 ![ad in Millenial Star](ad in Millenial Star.jpg)
 
